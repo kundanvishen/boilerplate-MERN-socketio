@@ -1,0 +1,32 @@
+{
+  "name": "js-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src",
+    "test": "eslint src && flow && jest --coverage",
+    "precommit": "yarn test",
+    "prepush": "yarn test"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-compat": "^2.5.1",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "flow-bin": "^0.80.0",
+    "husky": "^0.14.3",
+    "jest": "^23.6.0"
+  },
+  "browserslist": [
+    "> 1%"
+  ]
+}

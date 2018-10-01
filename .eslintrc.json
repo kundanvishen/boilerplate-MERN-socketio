@@ -8,7 +8,8 @@
     "compat"
   ],
   "rules": {
-    "compat/compat": 2
+    "compat/compat": 2,
+    "jsx-a11y/href-no-hash": [0]
   },
   "env": {
     "jest": true,
